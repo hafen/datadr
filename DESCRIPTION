@@ -10,7 +10,7 @@ Description: Methods for dividing data into subsets, applying analytical
     MapReduce interface as well.  Works with key-value pairs stored in memory,
     on local disk, or on HDFS, in the latter case using the R and Hadoop
     Integrated Programming Environment (RHIPE).
-License: BSD
+License: BSD_3_clause + file LICENSE
 LazyLoad: yes
 LazyData: yes
 Depends:
@@ -19,5 +19,4 @@ Depends:
     parallel,
     data.table,
     digest,
-    codetools,
-    testthat (>= 0.8.0)
+    codetools
