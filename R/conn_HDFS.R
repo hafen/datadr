@@ -123,7 +123,7 @@ addData.hdfsConn <- function(conn, data, overwrite=FALSE) {
 }
 
 # takes a list of keys and removes data with those keys
-#' @export
+#' @S3method removeData hdfsConn
 removeData.hdfsConn <- function(conn, keys) {
    message("* Sorry... removing individual k/v pairs from HDFS is not fun. (requires complete read and write of the data).")
 }
