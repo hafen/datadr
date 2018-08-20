@@ -18,4 +18,3 @@ This is used internally for conditioning variable division.  It does not have mu
 # see how key names are obtained
 getCondCuts(iris, "Species")
 }
-

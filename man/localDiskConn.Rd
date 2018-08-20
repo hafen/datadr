@@ -40,10 +40,9 @@ addData(conn, list(list("3", iris[111:150,])))
 irisDdf <- ddf(conn, update = TRUE)
 irisDdf
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{addData}}, \code{\link{ddo}}, \code{\link{ddf}}, \code{\link{localDiskConn}}
 }
-
+\author{
+Ryan Hafen
+}

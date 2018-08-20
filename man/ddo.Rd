@@ -4,7 +4,8 @@
 \alias{ddo}
 \title{Instantiate a Distributed Data Object ('ddo')}
 \usage{
-ddo(conn, update = FALSE, reset = FALSE, control = NULL, verbose = TRUE)
+ddo(conn, update = FALSE, reset = FALSE, control = NULL,
+  verbose = TRUE)
 }
 \arguments{
 \item{conn}{an object pointing to where data is or will be stored for the 'ddf' object - can be a 'kvConnection' object created from \code{\link{localDiskConn}} or \code{\link{hdfsConn}}, or a data frame or list of key-value pairs}
@@ -25,4 +26,3 @@ kv <- kvPairs(kvPair(1, letters), kvPair(2, rnorm(100)))
 kvddo <- ddo(kv)
 kvddo
 }
-

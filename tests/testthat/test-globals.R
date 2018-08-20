@@ -21,10 +21,10 @@ test_that("2-level functions work", {
 test_that("objects preserved after removed", {
   # checks nested functions, package detection, removing objects
   # and that objects are added even when NULL
-  require(lattice)
+  require(hexbin)
 
   a <- 12; aa <- 2; aaa <- NULL; b <- 2
-  gg <- function() {xyplot(1:10 ~ 1:10); if(is.null(aaa)) b}
+  gg <- function() { hexbin::hexbin(1:10); if(is.null(aaa)) b }
   ff <- function(x) mean(x$Sepal.Length) + aa + a + gg()
 
   slFf <- addTransform(bySpecies, ff)
@@ -49,7 +49,7 @@ test_that("objects preserved after removed", {
   expect_equal(as.numeric(kvExample(slFf)[[2]]), 21.006)
 
   # are packages loaded?
-  detach("package:lattice")
+  detach("package:hexbin")
   kvExample(slFf)
 })
 

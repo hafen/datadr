@@ -27,9 +27,6 @@ irisRR
 # look at the actual distribution of number of rows per subset
 plot(splitRowDistn(irisRR))
 }
-\author{
-Ryan Hafen
-}
 \references{
 \itemize{
  \item \url{http://deltarho.org}
@@ -39,4 +36,6 @@ Ryan Hafen
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{condDiv}}
 }
-
+\author{
+Ryan Hafen
+}

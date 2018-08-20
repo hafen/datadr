@@ -23,9 +23,6 @@ d <- divide(iris, by = "Species")
 # equivalent:
 d <- divide(iris, by = condDiv("Species"))
 }
-\author{
-Ryan Hafen
-}
 \references{
 \itemize{
  \item \url{http://deltarho.org}
@@ -35,4 +32,6 @@ Ryan Hafen
 \seealso{
 \code{\link{divide}}, \code{\link{getSplitVars}}, \code{\link{getSplitVar}}
 }
-
+\author{
+Ryan Hafen
+}

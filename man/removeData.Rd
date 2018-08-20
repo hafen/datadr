@@ -34,10 +34,9 @@ removeData(conn, list("1", "2"))
 irisDdf <- ddf(conn, reset = TRUE, update = TRUE)
 irisDdf
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{removeData}}, \code{\link{localDiskConn}}, \code{\link{hdfsConn}}
 }
-
+\author{
+Ryan Hafen
+}

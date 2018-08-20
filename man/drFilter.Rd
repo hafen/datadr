@@ -4,8 +4,8 @@
 \alias{drFilter}
 \title{Filter a 'ddo' or 'ddf' Object}
 \usage{
-drFilter(x, filterFn, output = NULL, overwrite = FALSE, params = NULL,
-  packages = NULL, control = NULL)
+drFilter(x, filterFn, output = NULL, overwrite = FALSE,
+  params = NULL, packages = NULL, control = NULL)
 }
 \arguments{
 \item{x}{an object of class 'ddo' or 'ddf'}
@@ -38,10 +38,9 @@ drFilter(bySpecies, function(v) mean(v$Sepal.Width) < 3)
 # Filter using both the key and value
 drFilter(bySpecies, function(k,v) k != "Species=virginica" & mean(v$Sepal.Width) < 3)
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{drJoin}}, \code{\link{drLapply}}
 }
-
+\author{
+Ryan Hafen
+}

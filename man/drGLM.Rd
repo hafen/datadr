@@ -38,10 +38,9 @@ bySpecies \%>\%
   recombine(combMeanCoef)
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{rrDiv}}
 }
-
+\author{
+Ryan Hafen
+}

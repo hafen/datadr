@@ -39,10 +39,9 @@ sl <- drLapply(bySpecies, function(x) x$Sepal.Length)
 drJoin(Sepal.Width = sw, Sepal.Length = sl, postTransFn = as.data.frame)
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{drFilter}}, \code{\link{drLapply}}
 }
-
+\author{
+Ryan Hafen
+}

@@ -22,4 +22,3 @@ d <- divide(iris, by = "Species")
 dl <- convert(d, localDiskConn(tempfile(), autoYes = TRUE))
 dl
 }
-

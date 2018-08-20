@@ -46,13 +46,12 @@ coefs <- recombine(adultBlb, combMean)
 matrix(coefs, ncol = 2, byrow = TRUE)
 }
 }
-\author{
-Ryan Hafen
-}
 \references{
 Kleiner, Ariel, et al. "A scalable bootstrap for massive data." Journal of the Royal Statistical Society: Series B (Statistical Methodology) 76.4 (2014): 795-816.
 }
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}
 }
-
+\author{
+Ryan Hafen
+}

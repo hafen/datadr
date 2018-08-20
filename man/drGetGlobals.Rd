@@ -26,4 +26,3 @@ drGetGlobals(f)
 \author{
 Ryan Hafen
 }
-

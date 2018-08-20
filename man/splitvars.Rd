@@ -24,4 +24,3 @@ d <- divide(iris, by = "Species",
 getSplitVars(d[[1]]$value)
 getSplitVar(d[[1]]$value, "Species")
 }
-

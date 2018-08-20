@@ -30,13 +30,12 @@ d <- updateAttributes(d)
 d
 summary(d)
 }
-\author{
-Ryan Hafen
-}
 \references{
 Bennett, Janine, et al. "Numerically stable, single-pass, parallel statistics algorithms.' Cluster Computing and Workshops", 2009. \emph{CLUSTER09. IEEE International Conference on.} IEEE, 2009
 }
 \seealso{
 \code{\link{ddo}}, \code{\link{ddf}}, \code{\link{divide}}
 }
-
+\author{
+Ryan Hafen
+}

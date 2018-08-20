@@ -51,10 +51,9 @@ out2
 identical(out1, out2)
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{combCollect}}, \code{\link{combDdo}}, \code{\link{combDdf}}, \code{\link{combRbind}}, \code{\link{combMeanCoef}}
 }
-
+\author{
+Ryan Hafen
+}

@@ -5,7 +5,8 @@
 \title{Take a Sample of Key-Value Pairs
 Take a sample of key-value Pairs}
 \usage{
-drSample(x, fraction, output = NULL, overwrite = FALSE, control = NULL)
+drSample(x, fraction, output = NULL, overwrite = FALSE,
+  control = NULL)
 }
 \arguments{
 \item{x}{a 'ddo' or 'ddf' object}
@@ -27,4 +28,3 @@ bySpecies <- divide(iris, by = "Species")
 set.seed(234)
 sampleRes <- drSample(bySpecies, fraction = 0.25)
 }
-

@@ -23,4 +23,3 @@ kvPair("name", "bob")
 \seealso{
 \code{\link{kvPairs}}
 }
-

@@ -47,13 +47,12 @@ dhex <- drHexbin(d, xVar = "xx", yVar = "yy")
 # dhex is equivalent to running on undivided data:
 hexbin(dat$xx, dat$yy)
 }
-\author{
-Ryan Hafen
-}
 \references{
 Carr, D. B. et al. (1987) Scatterplot Matrix Techniques for Large \eqn{N}. \emph{JASA} \bold{83}, 398, 424--436.
 }
 \seealso{
 \code{\link{drQuantile}}
 }
-
+\author{
+Ryan Hafen
+}

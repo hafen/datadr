@@ -39,10 +39,9 @@ This simply creates a "connection" to a directory on HDFS (which need not have d
   hdd <- ddf(conn)
 }
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{addData}}, \code{\link{ddo}}, \code{\link{ddf}}, \code{\link{localDiskConn}}
 }
-
+\author{
+Ryan Hafen
+}

@@ -46,10 +46,9 @@ bySpeciesSepalPersisted <- drPersist(bySpeciesSepal)
 bySpeciesSepalPersisted
 bySpeciesSepalPersisted[[1]]
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{addTransform}}
 }
-
+\author{
+Ryan Hafen
+}

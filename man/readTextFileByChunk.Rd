@@ -4,9 +4,9 @@
 \alias{readTextFileByChunk}
 \title{Experimental sequential text reader helper function}
 \usage{
-readTextFileByChunk(input, output, overwrite = FALSE, linesPerBlock = 10000,
-  fn = NULL, header = TRUE, skip = 0, recordEndRegex = NULL,
-  cl = NULL)
+readTextFileByChunk(input, output, overwrite = FALSE,
+  linesPerBlock = 10000, fn = NULL, header = TRUE, skip = 0,
+  recordEndRegex = NULL, cl = NULL)
 }
 \arguments{
 \item{input}{the path to an input text file}
@@ -45,4 +45,3 @@ a <- readTextFileByChunk(csvFile,
   })
 a[[1]]
 }
-

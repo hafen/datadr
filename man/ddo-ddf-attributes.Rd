@@ -2,15 +2,15 @@
 % Please edit documentation in R/ddo_ddf_methods.R
 \name{ddo-ddf-attributes}
 \alias{ddo-ddf-attributes}
+\alias{setAttributes}
+\alias{setAttributes.ddf}
+\alias{setAttributes.ddo}
 \alias{getAttribute}
 \alias{getAttributes}
 \alias{getAttributes.ddf}
 \alias{getAttributes.ddo}
 \alias{hasAttributes}
 \alias{hasAttributes.ddf}
-\alias{setAttributes}
-\alias{setAttributes.ddf}
-\alias{setAttributes.ddo}
 \title{Managing attributes of 'ddo' or 'ddf' objects}
 \usage{
 setAttributes(obj, attrs)
@@ -49,4 +49,3 @@ These are called internally in various datadr functions.  They are not meant for
 d <- divide(iris, by = "Species")
 getAttribute(d, "keys")
 }
-

@@ -29,4 +29,3 @@ Rbind all the rows of a 'ddf' object into a single data frame
 d <- divide(iris, by = "Species")
 as.data.frame(d)
 }
-

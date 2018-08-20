@@ -5,8 +5,8 @@
 \title{Subsetting Distributed Data Frames}
 \usage{
 drSubset(data, subset = NULL, select = NULL, drop = FALSE,
-  preTransFn = NULL, maxRows = 500000, params = NULL, packages = NULL,
-  control = NULL, verbose = TRUE)
+  preTransFn = NULL, maxRows = 500000, params = NULL,
+  packages = NULL, control = NULL, verbose = TRUE)
 }
 \arguments{
 \item{data}{object to be subsetted -- an object of class "ddf" or "ddo" - in the latter case, need to specify \code{preTransFn} to coerce each subset into a data frame}
@@ -42,4 +42,3 @@ drSubset(d, Sepal.Length < 5)
 \author{
 Ryan Hafen
 }
-

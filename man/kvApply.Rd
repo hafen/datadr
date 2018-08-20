@@ -27,4 +27,3 @@ kvApply(kv, function(k, v) v^2)
 kvApply(kv, function(k, v) k + v)
 kvApply(kv, function(x) kvPair("new_key", x))
 }
-

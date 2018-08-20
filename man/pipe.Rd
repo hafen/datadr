@@ -28,4 +28,3 @@ divide(iris, by = "Species") \%>\%
   addTransform(function(x) mean(x$Sepal.Length)) \%>\%
     recombine(combRbind)
 }
-

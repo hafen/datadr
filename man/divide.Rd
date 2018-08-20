@@ -4,10 +4,10 @@
 \alias{divide}
 \title{Divide a Distributed Data Object}
 \usage{
-divide(data, by = NULL, spill = 1000000, filterFn = NULL, bsvFn = NULL,
-  output = NULL, overwrite = FALSE, preTransFn = NULL,
-  postTransFn = NULL, params = NULL, packages = NULL, control = NULL,
-  update = FALSE, verbose = TRUE)
+divide(data, by = NULL, spill = 1000000, filterFn = NULL,
+  bsvFn = NULL, output = NULL, overwrite = FALSE,
+  preTransFn = NULL, postTransFn = NULL, params = NULL,
+  packages = NULL, control = NULL, update = FALSE, verbose = TRUE)
 }
 \arguments{
 \item{data}{an object of class "ddf" or "ddo" - in the latter case, need to specify \code{preTransFn} to coerce each subset into a data frame}
@@ -77,9 +77,6 @@ bySL <- ddf(iris) \%>\%
 bySL
 bySL[[1]]
 }
-\author{
-Ryan Hafen
-}
 \references{
 \itemize{
  \item \url{http://deltarho.org}
@@ -89,4 +86,6 @@ Ryan Hafen
 \seealso{
 \code{\link{recombine}}, \code{\link{ddo}}, \code{\link{ddf}}, \code{\link{condDiv}}, \code{\link{rrDiv}}
 }
-
+\author{
+Ryan Hafen
+}

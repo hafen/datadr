@@ -21,4 +21,3 @@ kvPairs(kvPair(1, letters), kvPair(2, rnorm(10)))
 \seealso{
 \code{\link{kvPair}}
 }
-

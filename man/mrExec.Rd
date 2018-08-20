@@ -4,9 +4,9 @@
 \alias{mrExec}
 \title{Execute a MapReduce Job}
 \usage{
-mrExec(data, setup = NULL, map = NULL, reduce = NULL, output = NULL,
-  overwrite = FALSE, control = NULL, params = NULL, packages = NULL,
-  verbose = TRUE)
+mrExec(data, setup = NULL, map = NULL, reduce = NULL,
+  output = NULL, overwrite = FALSE, control = NULL, params = NULL,
+  packages = NULL, verbose = TRUE)
 }
 \arguments{
 \item{data}{a ddo/ddf object, or list of ddo/ddf objects}
@@ -68,4 +68,3 @@ as.list(res)
 \author{
 Ryan Hafen
 }
-

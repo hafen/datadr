@@ -31,10 +31,9 @@ This is generally not recommended for HDFS as it writes a new file each time it 
   hdd <- ddf(conn)
 }
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{removeData}}, \code{\link{localDiskConn}}, \code{\link{hdfsConn}}
 }
-
+\author{
+Ryan Hafen
+}

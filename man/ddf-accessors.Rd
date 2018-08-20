@@ -2,19 +2,19 @@
 % Please edit documentation in R/ddo_ddf_methods.R
 \docType{methods}
 \name{ddf-accessors}
-\alias{NCOL}
-\alias{NCOL,ddf-method}
-\alias{NROW}
-\alias{NROW,ddf-method}
 \alias{ddf-accessors}
-\alias{names.ddf}
-\alias{ncol}
-\alias{ncol,ddf-method}
-\alias{nrow}
-\alias{nrow,ddf-method}
 \alias{splitRowDistn}
-\alias{summary.ddf}
 \alias{summary.ddo}
+\alias{summary.ddf}
+\alias{nrow}
+\alias{NROW}
+\alias{ncol}
+\alias{NCOL}
+\alias{nrow,ddf-method}
+\alias{NROW,ddf-method}
+\alias{ncol,ddf-method}
+\alias{NCOL,ddf-method}
+\alias{names.ddf}
 \title{Accessor methods for 'ddf' objects}
 \usage{
 splitRowDistn(x)
@@ -60,4 +60,3 @@ names(d)
 summary(d)
 getKeys(d)
 }
-

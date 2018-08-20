@@ -29,10 +29,9 @@ addData(conn, list(list("key3", iris[111:150,])))
 # see that files were stored by their key
 list.files(path)
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{localDiskConn}}, \code{\link{digestFileHash}}
 }
-
+\author{
+Ryan Hafen
+}

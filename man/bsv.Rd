@@ -52,10 +52,9 @@ bsvInfo(bySpecies)
 getBsvs(bySpecies[[1]])
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{divide}}, \code{\link{getBsvs}}, \code{\link{bsvInfo}}
 }
-
+\author{
+Ryan Hafen
+}

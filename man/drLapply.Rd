@@ -4,8 +4,9 @@
 \alias{drLapply}
 \title{Apply a function to all key-value pairs of a ddo/ddf object}
 \usage{
-drLapply(X, FUN, combine = combDdo(), output = NULL, overwrite = FALSE,
-  params = NULL, packages = NULL, control = NULL, verbose = TRUE)
+drLapply(X, FUN, combine = combDdo(), output = NULL,
+  overwrite = FALSE, params = NULL, packages = NULL,
+  control = NULL, verbose = TRUE)
 }
 \arguments{
 \item{X}{an object of class "ddo" of "ddf"}
@@ -36,10 +37,9 @@ Apply a function to all key-value pairs of a ddo/ddf object and get a new ddo ob
 bySpecies <- divide(iris, by = "Species")
 drLapply(bySpecies, function(x) x$Sepal.Width)
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{recombine}}, \code{\link{drFilter}}, \code{\link{drJoin}}, \code{\link{combDdo}}, \code{\link{combRbind}}
 }
-
+\author{
+Ryan Hafen
+}

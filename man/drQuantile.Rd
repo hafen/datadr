@@ -4,9 +4,10 @@
 \alias{drQuantile}
 \title{Sample Quantiles for 'ddf' Objects}
 \usage{
-drQuantile(x, var, by = NULL, probs = seq(0, 1, 0.005), preTransFn = NULL,
-  varTransFn = identity, varRange = NULL, nBins = 10000, tails = 100,
-  params = NULL, packages = NULL, control = NULL, ...)
+drQuantile(x, var, by = NULL, probs = seq(0, 1, 0.005),
+  preTransFn = NULL, varTransFn = identity, varRange = NULL,
+  nBins = 10000, tails = 100, params = NULL, packages = NULL,
+  control = NULL, ...)
 }
 \arguments{
 \item{x}{a 'ddf' object}
@@ -61,10 +62,9 @@ plot(iq$fval, iq$q)
 plot(probs, quantile(iris$Sepal.Length, probs = probs, type = 1))
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{updateAttributes}}
 }
-
+\author{
+Ryan Hafen
+}

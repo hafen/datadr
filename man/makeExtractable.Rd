@@ -32,4 +32,3 @@ Take a ddo/ddf HDFS data object and turn it into a mapfile
   hdd[["3"]]
 }
 }
-

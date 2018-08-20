@@ -5,8 +5,8 @@
 \title{Recombine}
 \usage{
 recombine(data, combine = NULL, apply = NULL, output = NULL,
-  overwrite = FALSE, params = NULL, packages = NULL, control = NULL,
-  verbose = TRUE)
+  overwrite = FALSE, params = NULL, packages = NULL,
+  control = NULL, verbose = TRUE)
 }
 \arguments{
 \item{data}{an object of class "ddo" of "ddf"}
@@ -90,9 +90,6 @@ unlink(ldPath, recursive = TRUE)
 # shut down the cluster
 parallel::stopCluster(cl)
 }
-\author{
-Ryan Hafen
-}
 \references{
 \itemize{
  \item \url{http://deltarho.org}
@@ -102,4 +99,6 @@ Ryan Hafen
 \seealso{
 \code{\link{divide}}, \code{\link{ddo}}, \code{\link{ddf}}, \code{\link{drGLM}}, \code{\link{drBLB}}, \code{\link{combMeanCoef}}, \code{\link{combMean}}, \code{\link{combCollect}}, \code{\link{combRbind}}, \code{\link{drLapply}}
 }
-
+\author{
+Ryan Hafen
+}

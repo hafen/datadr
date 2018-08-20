@@ -32,10 +32,9 @@ bySpecies \%>\%
   addTransform(meanPetal) \%>\%
   recombine(combCollect)
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{combDdo}}, \code{\link{combDdf}}, \code{\link{combMeanCoef}}, \code{\link{combRbind}}, \code{\link{combMean}}
 }
-
+\author{
+Ryan Hafen
+}

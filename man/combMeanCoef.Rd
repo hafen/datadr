@@ -55,10 +55,9 @@ out2 <- c("(Intercept)" = with(res, sum(Intercept * n) / sum(n)),
 identical(out1, out2)
 
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{rrDiv}}, \code{\link{combCollect}}, \code{\link{combDdo}}, \code{\link{combDdf}}, \code{\link{combRbind}}, \code{\link{combMean}}
 }
-
+\author{
+Ryan Hafen
+}

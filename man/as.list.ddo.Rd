@@ -18,4 +18,3 @@ Turn 'ddo' / 'ddf' Object into a list
 d <- divide(iris, by = "Species")
 as.list(d)
 }
-

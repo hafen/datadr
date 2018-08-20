@@ -2,8 +2,8 @@
 % Please edit documentation in R/datadr-package.R
 \docType{package}
 \name{datadr-package}
-\alias{datadr}
 \alias{datadr-package}
+\alias{datadr}
 \title{datadr}
 \description{
 datadr: Divide and Recombine for Large, Complex Data
@@ -19,4 +19,3 @@ Ryan Hafen
 Maintainer: Ryan Hafen <rhafen@gmail.com>
 }
 \keyword{package}
-

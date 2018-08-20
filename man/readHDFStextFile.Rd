@@ -5,7 +5,8 @@
 \title{Experimental HDFS text reader helper function}
 \usage{
 readHDFStextFile(input, output = NULL, overwrite = FALSE, fn = NULL,
-  keyFn = NULL, linesPerBlock = 10000, control = NULL, update = FALSE)
+  keyFn = NULL, linesPerBlock = 10000, control = NULL,
+  update = FALSE)
 }
 \arguments{
 \item{input}{a ddo / ddf connection to a text input directory on HDFS, created with \code{\link{hdfsConn}} - ensure the text files are within a directory and that type = "text" is specified}
@@ -38,4 +39,3 @@ res <- readHDFStextFile(
 )
 }
 }
-

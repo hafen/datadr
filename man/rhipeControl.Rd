@@ -5,8 +5,8 @@
 \title{Specify Control Parameters for RHIPE Job}
 \usage{
 rhipeControl(mapred = NULL, setup = NULL, combiner = FALSE,
-  cleanup = NULL, orderby = "bytes", shared = NULL, jarfiles = NULL,
-  zips = NULL, jobname = "")
+  cleanup = NULL, orderby = "bytes", shared = NULL,
+  jarfiles = NULL, zips = NULL, jobname = "")
 }
 \arguments{
 \item{mapred, setup, combiner, cleanup, orderby, shared, jarfiles, zips, jobname}{arguments to \code{rhwatch} in RHIPE}
@@ -31,4 +31,3 @@ rhctl <- rhipeControl(mapred = list(
 divide(d, by = "var", output = hdfsConn("/path/to/output"), control = rhctl)
 }
 }
-

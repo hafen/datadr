@@ -4,8 +4,8 @@
 \alias{ddf}
 \title{Instantiate a Distributed Data Frame ('ddf')}
 \usage{
-ddf(conn, transFn = NULL, update = FALSE, reset = FALSE, control = NULL,
-  verbose = TRUE)
+ddf(conn, transFn = NULL, update = FALSE, reset = FALSE,
+  control = NULL, verbose = TRUE)
 }
 \arguments{
 \item{conn}{an object pointing to where data is or will be stored for the 'ddf' object - can be a 'kvConnection' object created from \code{\link{localDiskConn}} or \code{\link{hdfsConn}}, or a data frame or list of key-value pairs}
@@ -48,4 +48,3 @@ dl
   hdd <- ddf(conn)
 }
 }
-

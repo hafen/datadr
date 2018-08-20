@@ -33,10 +33,9 @@ bySpecies \%>\%
   recombine(combMeanCoef)
 
 }
-\author{
-Landon Sego
-}
 \seealso{
 \code{\link{divide}}, \code{\link{recombine}}, \code{\link{rrDiv}}
 }
-
+\author{
+Landon Sego
+}

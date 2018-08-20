@@ -5,7 +5,8 @@
 \title{Specify Control Parameters for MapReduce on a Local Disk Connection}
 \usage{
 localDiskControl(cluster = NULL, map_buff_size_bytes = 10485760,
-  reduce_buff_size_bytes = 10485760, map_temp_buff_size_bytes = 10485760)
+  reduce_buff_size_bytes = 10485760,
+  map_temp_buff_size_bytes = 10485760)
 }
 \arguments{
 \item{cluster}{a "cluster" object obtained from \code{\link{makeCluster}} to allow for parallel processing}
@@ -47,4 +48,3 @@ unlink(ldPath, recursive = TRUE)
 # shut down the cluster
 parallel::stopCluster(cl)
 }
-

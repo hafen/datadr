@@ -4,8 +4,9 @@
 \alias{drAggregate}
 \title{Division-Agnostic Aggregation}
 \usage{
-drAggregate(data, formula, by = NULL, output = NULL, preTransFn = NULL,
-  maxUnique = NULL, params = NULL, packages = NULL, control = NULL)
+drAggregate(data, formula, by = NULL, output = NULL,
+  preTransFn = NULL, maxUnique = NULL, params = NULL,
+  packages = NULL, control = NULL)
 }
 \arguments{
 \item{data}{a "ddf" containing the variables in the formula \code{formula}}
@@ -38,10 +39,9 @@ The interface is similar to \code{\link[stats]{xtabs}}, but instead of returning
 \examples{
 drAggregate(Sepal.Length ~ Species, data = ddf(iris))
 }
-\author{
-Ryan Hafen
-}
 \seealso{
 \code{\link[stats]{xtabs}}, \code{\link{updateAttributes}}
 }
-
+\author{
+Ryan Hafen
+}

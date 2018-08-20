@@ -22,4 +22,3 @@ flatten(d[[1]]$value)
 \seealso{
 \code{\link{getSplitVars}}, \code{\link{getBsvs}}
 }
-

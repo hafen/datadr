@@ -22,4 +22,3 @@ kvddo
 \author{
 Ryan Hafen
 }
-
